@@ -5,7 +5,7 @@ environments:
     deployment:
       method: rolling-upgrade
     services:
-      - name: mongodb
+      - name: mongodbx
         type: mongo
       - name: spring-app
         external_url: hellobite-sample.dev-bite.io
